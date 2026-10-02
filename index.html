@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Excellence Training Center | Port Sudan</title>
+<meta name="description" content="Excellence Training Center in Port Sudan — English, IELTS, Jolly Phonics, computer and AI skills, international curriculum and professional training.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+<a class="brand" href="index.html"><span>ETC</span><div><b>Excellence Training Center</b><small>Empowering Minds, Creating Futures.</small></div></a>
+<button class="hamb" onclick="document.querySelector('.navlinks').classList.toggle('show')">☰</button>
+<nav class="navlinks"><a href="#programs">Programs</a><a href="#academy">Academy</a><a href="#about">About</a><a href="#teachers">Teachers</a><a href="#register">Register</a><a href="#contact">Contact</a><a class="admin" href="admin.html">Admin</a></nav>
+</header>
+
+<section class="hero">
+<div>
+<p class="eyebrow">PORT SUDAN • LEARN • GROW • EXCEL</p>
+<h1>Build the skills for <span>your future.</span></h1>
+<p class="lead">English, communication, computer skills, international curriculum and professional development in a prepared learning environment.</p>
+<div class="actions"><a class="btn primary" href="#register">Register Now</a><a class="btn light" href="#programs">Explore Programs</a></div>
+<div class="checks"><span>✓ Interactive learning</span><span>✓ Speaking practice</span><span>✓ Continuous follow-up</span><span>✓ Certificates</span></div>
+</div>
+<div class="hero-visual"><div class="hero-screen"><strong>ETC</strong><b>English • Technology • Skills</b><small>Study. Practice. Progress.</small></div><div class="mini"><b>Pre-1 → C2</b><small>English levels</small></div><div class="mini"><b>IELTS</b><small>Exam preparation</small></div><div class="mini"><b>AI + Excel</b><small>Digital skills</small></div></div>
+</section>
+
+<section id="programs" class="section">
+<div class="heading"><p class="eyebrow">PROGRAMS</p><h2>Learning paths for different goals.</h2><p>Choose a program, then register. Your information can be used for placement and follow-up.</p></div>
+<div class="cards">
+<article class="card"><label>ENGLISH</label><h3>General English</h3><p>Pre-1, Pre-2 and A1–C2. Build speaking, listening, reading and writing.</p><a href="course.html?id=english">View program →</a></article>
+<article class="card"><label>EXAMS</label><h3>IELTS Preparation</h3><p>Focused preparation for the four IELTS skills and exam strategies.</p><a href="course.html?id=ielts">View program →</a></article>
+<article class="card"><label>CHILDREN</label><h3>Jolly Phonics</h3><p>Early phonics and English literacy foundations for young learners.</p><a href="course.html?id=phonics">View program →</a></article>
+<article class="card"><label>COMPUTER</label><h3>Computer & AI</h3><p>Word, Excel, information management and practical AI skills.</p><a href="course.html?id=computer">View program →</a></article>
+<article class="card"><label>SCHOOLS</label><h3>International Curriculum</h3><p>English, Mathematics, Science and ICT support for primary learners.</p><a href="course.html?id=curriculum">View program →</a></article>
+<article class="card"><label>PROFESSIONAL</label><h3>Human Development</h3><p>Communication, leadership, soft skills and personal development.</p><a href="course.html?id=development">View program →</a></article>
+</div>
+</section>
+
+<section id="academy" class="section tinted">
+<div class="heading"><p class="eyebrow">ONLINE ACADEMY</p><h2>Learn from ETC wherever you are.</h2><p>Lessons can contain video, PDF materials, explanations and exercises. Public lessons are shown here; protected student lessons can be added after student login is connected.</p></div>
+<div id="lessonGrid" class="lesson-grid"><div class="loading">Loading lessons…</div></div>
+</section>
+
+<section id="about" class="section split">
+<div><p class="eyebrow">ABOUT ETC</p><h2>More than a classroom.</h2></div>
+<div><p>Excellence Training Center is designed around practical learning: explanation, guided practice, speaking, interactive activities and continuous follow-up.</p><p>We support children, teenagers, university students and adults preparing for study, work, travel and examinations.</p></div>
+</section>
+
+<section id="teachers" class="section tinted">
+<div class="heading"><p class="eyebrow">TRAINING TEAM</p><h2>Meet the ETC educators.</h2></div>
+<div class="teacher-grid">
+<div class="person"><div class="avatar">KE</div><h3>Mr. Khalid Elnadeef</h3><p>English, Science, Mathematics and communication training; A1 speaking practice.</p></div>
+<div class="person"><div class="avatar">EA</div><h3>Mr. Ekrema Ali</h3><p>Grammar, writing and IELTS-focused training.</p></div>
+<div class="person"><div class="avatar">R</div><h3>Ms. Rahel</h3><p>Foundation and primary teaching, coordination, children and adults' basics.</p></div>
+<div class="person"><div class="avatar">ETC</div><h3>ETC Training Team</h3><p>Collaborative support across English, curriculum and computer programs.</p></div>
+</div>
+</section>
+
+<section id="register" class="section register">
+<div><p class="eyebrow">REGISTRATION</p><h2>Start your ETC journey.</h2><p>Complete the form. ETC can contact you about placement, course selection and next steps.</p><div class="info"><b>Port Sudan</b><span>Deim/Dim Madina — near 50 Fruit</span><b>Phone</b><span>0915749548</span><b>WhatsApp</b><span>00249915749548</span></div></div>
+<form id="registrationForm" class="form">
+<input name="name" required placeholder="Full name"><input name="phone" required placeholder="Phone / WhatsApp"><input name="email" type="email" placeholder="Email (optional)">
+<select name="program" required><option value="">Choose a program</option><option>General English</option><option>IELTS Preparation</option><option>Jolly Phonics</option><option>Computer & AI Skills</option><option>International Curriculum</option><option>Human Development</option></select>
+<select name="level"><option value="">English level (if known)</option><option>Pre-1</option><option>Pre-2</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option><option>C2</option><option>Not sure</option></select>
+<textarea name="goal" placeholder="What do you want to achieve?"></textarea><button class="btn primary">Submit Registration</button><div id="regMessage"></div>
+</form>
+</section>
+
+<section id="contact" class="section contact">
+<div><p class="eyebrow">CONTACT</p><h2>Excellence Training Center</h2><p><b>Location:</b> Port Sudan — Deim/Dim Madina — near 50 Fruit</p><p><b>Phone:</b> 0915749548</p><p><b>WhatsApp:</b> 00249915749548</p><p><b>Online teacher:</b> 0126973848</p></div>
+<div class="contact-card"><h3>Ready to learn?</h3><p>Message ETC on WhatsApp for registration and course information.</p><a class="btn white" href="https://wa.me/249915749548" target="_blank">Message on WhatsApp</a></div>
+</section>
+<footer>© <span id="year"></span> Excellence Training Center (ETC) • Empowering Minds, Creating Futures.</footer>
+<script type="module" src="app.js"></script>
+</body></html>
